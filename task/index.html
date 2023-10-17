@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Table</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>API Table</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>API Name</th>
+                <th>API Description</th>
+                <th>Submit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Weather API</td>
+                <td>
+                    <p>Description about weather api</p>
+                </td>
+                <td>
+                    <button class="button" id="weatherButton">Get Weather</button>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>Eartquakes API</td>
+                <td>
+                    <p>Description about earthquake api</p>
+                </td>
+                <td>
+                    <button class="button" id="earthButton">Get Earthquake Info</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Ocean API</td>
+                <td>
+                    <p>Description about the Ocean API</p>
+                <td>     
+                    <button class="button" id="oceanButton">Find closest ocean</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="results"></td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
